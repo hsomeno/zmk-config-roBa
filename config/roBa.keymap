@@ -68,12 +68,12 @@
         default_layer {
             bindings = <
 &kp Q                 &kp W             &kp E                    &kp R                        &kp T                                                                 &kp Y     &kp U  &kp I      &kp O    &kp P
-&kp A                 &kp S             &kp D                    &kp F                        &kp G                   &kp LS(LG(S))         &lt 6 SQT               &kp H     &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp A                 &kp S             &kp D                    &kp F                        &kp G                   &kp LC(UP_ARROW)      &lt 6 SQT               &kp H     &kp J  &kp K      &kp L    &kp SEMICOLON
 &kp Z                 &kp X             &kp C                    &kp V                        &kp B                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET       &kp N     &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &mt LEFT_SHIFT TILDE  &kp LEFT_CONTROL  &mt LEFT_ALT LANGUAGE_1  &mt LEFT_WIN RS(LANGUAGE_2)  &lt_to_layer_0 1 SPACE  &mkp MB1              &lt_to_layer_0 2 SPACE  &mkp MB1                             &mt RIGHT_SHIFT BACKSLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         FUNCTION {
