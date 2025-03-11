@@ -40,6 +40,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        delete {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <9 8>;
+        };
     };
 
     macros {
@@ -73,7 +83,7 @@
 &mt LEFT_SHIFT TILDE  &kp LEFT_CONTROL  &mt LEFT_ALT LANGUAGE_1  &mt LEFT_WIN RS(LANGUAGE_2)  &lt_to_layer_0 1 SPACE  &mkp MB1              &lt_to_layer_0 2 SPACE  &mkp MB1                             &lt 5 BACKSLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(K_SCROLL_UP) LC(K_SCROLL_DOWN)>;
         };
 
         FUNCTION {
@@ -133,6 +143,15 @@
         };
 
         layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        layer_8 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
