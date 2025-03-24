@@ -83,19 +83,19 @@
 
         FUNCTION {
             bindings = <
-&kp Q           &kp EXCLAMATION   &kp AT_SIGN   &kp HASH       &kp DOLLAR                               &kp SQT         &kp SLASH       &kp MINUS     &kp EQUAL  &kp BACKSPACE
-&kp TAB         &kp PERCENT       &kp CARET     &kp AMPERSAND  &kp ASTERISK  &trans      &kp SEMICOLON  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp ENTER
-&kp GRAVE       &kp F1            &kp F2        &kp F3         &kp F4        &kp F5      &kp F6         &kp F7          &kp F8          &kp F9        &kp F10    &kp F11
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN   &trans        &trans      &trans         &trans                                                   &kp F12
+&kp Q           &kp EXCLAMATION   &kp AT_SIGN   &kp HASH       &kp DOLLAR                                         &kp SQT         &kp SLASH       &kp MINUS     &kp EQUAL  &kp BACKSPACE
+&kp TAB         &kp PERCENT       &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LC(UP_ARROW)      &kp SEMICOLON  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp ENTER
+&kp GRAVE       &kp F1            &kp F2        &kp F3         &kp F4        &kp F5                &kp F6         &kp F7          &kp F8          &kp F9        &kp F10    &kp F11
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN   &trans        &trans                &trans         &trans                                                   &kp F12
             >;
         };
 
         NUM {
             bindings = <
-&kp NUMBER_1                &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp N5                                                 &kp NUMBER_6          &kp N7                 &kp N8            &kp N9             &kp N0
-&kp GRAVE                   &kp MINUS        &kp PLUS         &kp ASTERISK     &kp SLASH   &kp LC(LA(KP_NUMBER_0))      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp GRAVE                    &kp COMMA     &kp PERIOD            &kp SLASH              &kp MINUS         &kp EQUAL          &kp SQT
-&kp LEFT_SHIFT              &trans           &trans           &trans           &trans      &trans                       &trans        &trans                                                                            &kp BACKSLASH
+&kp GRAVE            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                                 &kp N7      &kp N8                &kp N9                 &kp N0            &kp MINUS
+&kp MINUS            &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp N5          &kp NUMBER_6   &kp COMMA   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&mt LEFT_SHIFT PLUS  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp ESCAPE      &kp BACKSPACE  &kp PERIOD  &kp SLASH             &kp SEMICOLON          &kp SQT           &kp EQUAL
+&kp LEFT_SHIFT       &kp N0        &trans        &trans        &trans        &trans          &trans         &trans                                                                     &kp BACKSLASH
             >;
         };
 
