@@ -102,10 +102,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                         &kp N8     &kp N9                &kp N0                 &kp MINUS         &kp EQUAL
-&kp NUMBER_4       &kp N5        &kp NUMBER_6  &kp MINUS     &kp SLASH     &kp NUMBER_6      &kp N7         &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&mt LEFT_SHIFT N7  &kp N8        &kp N9        &kp EQUAL     &kp ASTERISK  &kp ESCAPE        &kp BACKSPACE  &kp COMMA  &kp PERIOD            &kp SLASH              &kp SEMICOLON     &kp SQT
-&kp LEFT_SHIFT     &kp N0        &trans        &trans        &trans        &trans            &trans         &trans                                                                    &kp BACKSLASH
+&kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                         &kp N6     &kp N7            &kp N8             &kp N9         &kp N0
+&kp NUMBER_4       &kp N5        &kp NUMBER_6  &kp MINUS     &kp SLASH     &kp NUMBER_6      &kp N7         &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS      &kp EQUAL
+&mt LEFT_SHIFT N7  &kp N8        &kp N9        &kp EQUAL     &kp ASTERISK  &kp ESCAPE        &kp BACKSPACE  &kp COMMA  &kp PERIOD        &kp SLASH          &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT     &kp N0        &trans        &trans        &trans        &trans            &trans         &trans                                                         &kp BACKSLASH
             >;
         };
 
